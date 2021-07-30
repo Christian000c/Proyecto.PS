@@ -1,6 +1,6 @@
 h1 {
 
-    color: #0b81b8;
+    color: #4d0bb8;
     text-align: center;
     font-size: 60px;
     
@@ -38,6 +38,8 @@ p {
     text-align: center; 
     font-size: 30px;
 }
-body{
-    background: #a89b27;
+
+body
+{
+    background: #111110;
 }
