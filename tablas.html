@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Tablas</h1>
+
+    <h3>Tabla simple</h3>
+    <table style="width: 100%">
+        <tr>
+            <td>Nombre del equipo</td>
+            <td>Puntos</td>
+            <td>Goles a favor</td>
+            <td>Goles en contra</td>
+        </tr>
+        <tr>
+            <td>America</td>
+            <td>36</td>
+            <td>18</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Cruz Azul</td>
+            <td>42</td>
+            <td>22</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Monterrey</td>
+            <td>12</td>
+            <td>10</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h3>Tablas con bordes</h3>
+    <table style="width: 100%" border="1">
+        <tr>
+            <td>Nombre(s)</td>
+            <td>Apellidos</td>
+            <td>Asistencia</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>Gonzalez</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Christian</td>
+            <td>Cordoba</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>Leos</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h3>Titulos de tabla</h3>
+    <table style="width: 100%" border="1">
+        <thead>
+            <tr>
+                <th>Nombre(s)</th>
+                <th>Apellidos</th>
+                <th>Asistencia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ricardo</td>
+                <td>Gonzalez</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Christian</td>
+                <td>Cordoba</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Leos</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h3>Combinar columnas</h3>
+    <table style="width: 100%" border="1">
+        <thead>
+            <tr>
+                <th>Nombre(s)</th>
+                <th>Apellidos</th>
+                <th>Asistencia</th>
+                <th colspan="2">Telefonos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ricardo</td>
+                <td>Gonzalez</td>
+                <td>10</td>
+                <td>5521321</td>
+                <td>9102501</td>
+            </tr>
+            <tr>
+                <td>Christian</td>
+                <td>Cordoba</td>
+                <td>9</td>
+                <td>9750454</td>
+                <td>9720566</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Leos</td>
+                <td>8</td>
+                <td>9105548</td>
+                <td>9720395</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    
+    <h3>Combinar filas</h3>
+    <table style="width: 100%" border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Nombre Completo</th>
+                <th rowspan="2">Asistencia</th>
+                <th rowspan="2" colspan="2">Telefonos</th>
+            </tr>
+            <tr>
+                <th>Nombre(s)</th>
+                <th>Apellidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ricardo</td>
+                <td>Gonzalez</td>
+                <td>10</td>
+                <td>5521321</td>
+                <td>9102501</td>
+            </tr>
+            <tr>
+                <td>Christian</td>
+                <td>Cordoba</td>
+                <td>9</td>
+                <td>9750454</td>
+                <td>9720566</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Leos</td>
+                <td>8</td>
+                <td>9105548</td>
+                <td>9720395</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h3>Subtitulo de tabla </h3>
+    <table style="width: 100%" border="1">
+        <caption>Asistencias de los alumnos</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Nombre Completo</th>
+                <th rowspan="2">Asistencia</th>
+                <th rowspan="2" colspan="2">Telefonos</th>
+            </tr>
+            <tr>
+                <th>Nombre(s)</th>
+                <th>Apellidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ricardo</td>
+                <td>Gonzalez</td>
+                <td>10</td>
+                <td>5521321</td>
+                <td>9102501</td>
+            </tr>
+            <tr>
+                <td>Christian</td>
+                <td>Cordoba</td>
+                <td>9</td>
+                <td>9750454</td>
+                <td>9720566</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Leos</td>
+                <td>8</td>
+                <td>9105548</td>
+                <td>9720395</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <a href="index.html">Regresar</a>
+</body>
+</html>
