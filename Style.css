@@ -6,13 +6,13 @@ h1 {
     
 }
 h2 {
-    color: #b8110b;
+    color: #0badb8;
     text-align: center;
     font-size: 50px;
 }
 
 h3{
-    color: #4d0bb8;
+    color: #0b87b8;
     text-align: center;
     font-size: 45px;
 }
@@ -24,7 +24,7 @@ h4{
 }
 
 h5{
-    color: #b80b93;
+    color: #979096;
     text-align: center;
     font-size: 25px;
 }
@@ -38,8 +38,18 @@ p {
     text-align: center; 
     font-size: 30px;
 }
+td {
+    color: #f8f8f8;
+    text-align: left; 
+    font-size: 16px;
+}
+th{
+    color: #e9d73a;
+    text-align: center; 
+    font-size: 16px; 
 
+}
 body
 {
-    background: #111110;
+    background: #141414;
 }
