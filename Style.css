@@ -1,11 +1,31 @@
-h1 {
+*{
+    
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+}
 
-    color: #c0a9e6;
-    text-align: center;
+p{
+
+    color:white;
+    background-color: blue;
+
+}
+
+*{
+    font-family:'Times New Roman', Times, serif;
+    color:red;
+}
+
+h1 {
+    
+    color: black;
+    text-align: cen ter;
     font-size: 60px;
     
 }
 h2 {
+
     color: #0badb8;
     text-align: center;
     font-size: 50px;
@@ -38,6 +58,7 @@ p {
     text-align: center; 
     font-size: 30px;
 }
+
 td {
     color: #f8f8f8;
     text-align: left; 
@@ -59,8 +80,8 @@ a{
     font-size: 16px; 
 }
 
-
 body
 {
     background: #141414;
-}
+} 
+
